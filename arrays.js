@@ -5,11 +5,11 @@ function addElementToBeginningOfArray(Element, Array) {
 function destructivelyAddElementToBeginningOfArray(Array, Element) {
   return Array.unshift(Element);
 }
-function addElementToEndOfArray(chocolateBars, element) {
-  return [...chocolateBars, element]
+function addElementToEndOfArray(Array, Element) {
+  return [...Array, Element];
 }
-function destructivelyAddElementToEndOfArray(chocolateBars, element) {
-  return chocolateBars.push(element)
+function destructivelyAddElementToEndOfArray(Array, Element) {
+  return Array.push(Element);
 }
 accessElementInArray(chocolateBars,Index) {
   return chocolateBars[Index]
